@@ -1,0 +1,2187 @@
+@import url("https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&family=Tulpen+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Tulpen+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kurale&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marmelad&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cuprum&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+body {
+    cursor: pointer;
+}
+
+.herberul input {
+    margin: 5px;
+}
+
+.parallaxx {
+    position: relative;
+    margin-top: 100px;
+}
+
+.herberul input[type="text"] {
+    width: 130px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url("searchicon.png");
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+}
+
+.herberul input[type="text"]:focus {
+    width: 300px;
+}
+
+.herber {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    font-family: "Raleway", sans-serif;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+}
+
+.herberlogo {
+    margin: 15px;
+}
+
+.herberul ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+.sev span {
+    padding: 50px;
+    margin: 30px;
+}
+
+.herberul ul {
+    display: flex;
+    margin: 15px;
+}
+
+.herber ul :hover {
+    background: rgb(89, 87, 87);
+    color: rgb(212, 200, 200);
+    transition: 1.5s;
+    border-radius: 10px;
+}
+
+.control {
+    background: url(./img_herber/slider-2-1920x729.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.control button {
+    width: 70px;
+    height: 70px;
+}
+
+.quality h2 {
+    font-size: 150px;
+    color: white;
+    font-family: "Tulpen One", cursive;
+    padding: 15px;
+}
+
+.quality p {
+    font-size: 30px;
+    color: rgb(183, 181, 181);
+    font-family: "Tulpen One", cursive;
+    padding: 15px;
+}
+
+.quality button {
+    width: 160px;
+    height: 70px;
+    background: #008000;
+    border: 0px;
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+}
+
+.quality {
+    position: relative;
+    right: 240px;
+}
+
+.btn1 button {
+    background: white;
+    color: black;
+    border: 0px;
+}
+
+.btn1 :hover {
+    background-color: yellow;
+    border: 0px;
+    border-radius: 50%;
+    transition: 1.5s;
+    color: rgb(0, 0, 0);
+    transform: rotate(400deg);
+}
+
+.btn2 :hover {
+    background: yellow;
+    color: black;
+    transition: 1.5s;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.btn2 {
+    padding: 15px;
+}
+
+.bgimg img {
+    position: relative;
+    top: -20px;
+    width: 100%;
+}
+
+.naturalherber {
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Koh Santepheap", cursive;
+    position: relative;
+    top: 60px;
+}
+
+.natural {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border: 1px solid gray;
+}
+
+.mika {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.naturalx :hover {
+    background: #00cc33;
+    color: yellow;
+    transition: 1s;
+}
+
+.gazar {
+    display: flex;
+    justify-content: space-around;
+    width: 1420px;
+    margin: 0 auto;
+    position: relative;
+    top: 140px;
+}
+
+.mrger1 {
+    display: flex;
+    text-align: center;
+    font-family: "Marmelad", sans-serif;
+}
+
+.verev1 img {
+    background: #bfbfbf;
+    padding: 14px;
+    margin: 10px;
+}
+
+.nerqev2 img {
+    background: #bfbfbf;
+    padding: 14px;
+    margin: 10px;
+}
+
+.verev1 :hover {
+    background: rgb(108, 108, 105);
+    transition: 1.5s;
+}
+
+.nerqev1 :hover {
+    background: rgb(108, 108, 105);
+    transition: 1.5s;
+}
+
+.parallax {
+    background-image: url("./img_herber/bg-parallax-1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fonhtm h2 {
+    font-size: 90px;
+    color: white;
+    font-family: "Marmelad", sans-serif;
+    padding: 25px;
+}
+
+.fonhtm p {
+    font-size: 30px;
+    color: white;
+    font-family: "Marmelad", sans-serif;
+    padding: 25px;
+}
+
+.fonhtm button {
+    width: 220px;
+    height: 80px;
+    border: 0;
+    border-radius: 5px;
+    background: #00cc33;
+    color: black;
+    font-family: "Marmelad", sans-serif;
+    padding: 25px;
+}
+
+.btnhvr :hover {
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    background: yellow;
+    color: black;
+    border-radius: 30px;
+    transition: 1.3s;
+}
+
+.outteam {
+    position: relative;
+    top: 350px;
+}
+
+.imgtextour {
+    display: flex;
+    justify-content: center;
+}
+
+.imgtextour img {
+    padding: 15px;
+}
+
+.teamtext h2 {
+    font-size: 80px;
+    text-align: center;
+    padding: 15px;
+    font-family: "Kurale", serif;
+}
+
+.color img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.color img:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1.6s ease;
+}
+
+.parallaxx {
+    background-image: url("./img_herber/bg-parallax-2.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+    color: yellow;
+    font-family: "Bubblegum Sans", cursive;
+}
+
+.bgimg2 {
+    position: relative;
+    top: 350px;
+}
+
+.bgimg2 img {
+    width: 100%;
+}
+
+.imgsall {
+    position: relative;
+    top: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.alltemplate {
+    justify-content: center;
+}
+
+.wrapper span {
+    position: fixed;
+    bottom: -180px;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    background-color: #18191f;
+    box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+        0 0 200px #0072ff;
+    animation: animate 10s linear infinite;
+}
+
+.wrapper span:nth-child(1) {
+    left: 60px;
+    animation-delay: 0.6s;
+}
+
+.wrapper span:nth-child(2) {
+    left: 10%;
+    animation-delay: 3s;
+    width: 60px;
+    height: 60px;
+}
+
+.wrapper span:nth-child(3) {
+    left: 20%;
+    animation-delay: 2s;
+}
+
+.wrapper span:nth-child(4) {
+    left: 30%;
+    animation-delay: 5s;
+    width: 80px;
+    height: 80px;
+}
+
+.wrapper span:nth-child(5) {
+    left: 40%;
+    animation-delay: 1s;
+}
+
+.wrapper span:nth-child(6) {
+    left: 50%;
+    animation-delay: 7s;
+}
+
+.wrapper span:nth-child(7) {
+    left: 60%;
+    animation-delay: 6s;
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper span:nth-child(8) {
+    left: 70%;
+    animation-delay: 8s;
+}
+
+.wrapper span:nth-child(9) {
+    left: 80%;
+    animation-delay: 6s;
+    width: 90px;
+    height: 90px;
+}
+
+.wrapper span:nth-child(10) {
+    left: 90%;
+    animation-delay: 4s;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content h2 b {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #fff;
+    font-family: montserrat;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.mekerku {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.mekmek img {
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 40px;
+    position: relative;
+    left: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.mekmek img:hover {
+    opacity: 0.7;
+}
+
+.sev {
+    display: none;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.sevfon2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.sev img {
+    justify-content: space-around;
+}
+
+.sevfon66 img {
+    padding: 10px;
+    position: relative;
+    left: 440px;
+}
+
+.sevfon44 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#mek {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    font-size: 30px;
+}
+
+.sevfon2,
+#mek {
+    -webkit-animation-name: onlyUP;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes onlyUP {
+    from {
+        -webkit-transform: scale(0);
+    }
+
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes onlyUP {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.textsall h2 {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Cherry Swash", cursive;
+}
+
+.bcgrd {
+    -webkit-animation: color_change 1s infinite alternate;
+    -moz-animation: color_change 1s infinite alternate;
+    -ms-animation: color_change 1s infinite alternate;
+    -o-animation: color_change 1s infinite alternate;
+    animation: color_change 1s infinite alternate;
+    animation-name: color_change;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    top: 600px;
+}
+
+.imgbw img {
+    width: 100%;
+}
+
+@-webkit-keyframes color_change {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+@-moz-keyframes color_change {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+@-ms-keyframes color_change {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+@-o-keyframes color_change {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+@keyframes color_change {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+.bgimg3 {
+    position: relative;
+    top: 577px;
+}
+
+.bgimg3 img {
+    width: 100%;
+}
+
+.endtemplateall {
+    position: relative;
+    top: 572px;
+    background: rgb(49, 39, 39);
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Inter", sans-serif;
+}
+
+.endtemplateall i {
+    color: grey;
+}
+
+.th1 {
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+.th2 {
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+.th3 {
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+.th1 img {
+    padding: 10px;
+}
+
+.th1 p {
+    font-size: 22px;
+    padding: 10px;
+    color: grey;
+}
+
+.th1 h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.th2 h2 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.th2 p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.th2 input {
+    width: 415px;
+    margin: 10px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    border: 0px;
+    background: rgb(73, 61, 61);
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.th2 button {
+    width: 420px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+    border: 0px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.th2 i {
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+}
+
+.endtmplt {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(59, 49, 49);
+    position: relative;
+    top: 570px;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    color: grey;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.slaq button {
+    width: 100px;
+    height: 100px;
+    border: 0px;
+    border-radius: 5px;
+    background: #26d926;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 40px;
+}
+
+.slaq :hover {
+    background: rgb(24, 154, 54);
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.aaj {
+    width: 500px;
+    height: 100vh;
+    background: white;
+    color: black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border: 1px solid black;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 100;
+    display: none;
+    transition: 13s;
+}
+
+.aaj1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.aaj2 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 35px;
+}
+
+.naturalherber {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.gazar {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.outteam {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.kk1 h5 {
+    color: green;
+    font-size: 30px;
+    text-align: center;
+    padding: 35px;
+}
+
+.kk1img img {
+    padding: 35px;
+}
+
+.aaj {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.aaj1 {
+    padding: 30px;
+}
+
+.numberphone {
+    padding: 35px;
+}
+
+.numberphone p {
+    margin: 10px;
+}
+
+@media (max-width: 900px) {
+    section h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    section .text-container {
+        flex-direction: column;
+    }
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.bgimg12345 {
+    background: url("./img_herber/slider-1-1920x729.jpg");
+    width: 100%;
+    height: 76vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg123456 {
+    background: url("./img_herber/slider-2-1920x729.jpg");
+    width: 100%;
+    height: 76vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg1234567 {
+    background: url("./img_herber/slider-3-1920x729.jpg");
+    width: 100%;
+    height: 76vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.saxteplate {
+    position: relative;
+    top: 80px;
+}
+
+.text5555 h1 {
+    font-size: 120px;
+    color: white;
+    font-family: "Red Rose", cursive;
+    position: relative;
+    right: 180px;
+    top: -70px;
+}
+
+.text6666 h1 {
+    font-size: 120px;
+    color: black;
+    font-family: "Red Rose", cursive;
+    position: relative;
+    right: 180px;
+    top: -70px;
+}
+
+.text5555 p {
+    font-size: 30px;
+    color: rgb(165, 160, 160);
+    font-family: "Cuprum", sans-serif;
+    position: relative;
+    right: 180px;
+    top: -60px;
+}
+
+.text6666 p {
+    font-size: 30px;
+    color: black;
+    font-family: "Cuprum", sans-serif;
+    position: relative;
+    right: 230px;
+    top: -60px;
+}
+
+.text5555 button {
+    width: 230px;
+    height: 65px;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 400px;
+    top: -40px;
+}
+
+.text6666 button {
+    width: 230px;
+    height: 65px;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 400px;
+    top: -40px;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: "";
+    background: linear-gradient(45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000;
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    border: 2px solid white;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/* - - - - - - - - - - MEDIA - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA - - - - - - - - - - */
+/* - - - - - - - - - - MEDIA - - - - - - - - - - */
+
+@media screen and (max-width: 1400px) {
+    .text5555 h1 {
+        font-size: 60px;
+        position: relative;
+        right: 350px;
+    }
+
+    .text5555 p {
+        font-size: 20px;
+        position: relative;
+        right: 290px;
+    }
+
+    .herber {
+        width: 100%;
+    }
+
+    .mySwiper {
+        width: 100%;
+    }
+
+    .bgimg {
+        width: 100%;
+    }
+
+    .aaj {
+        width: 100%;
+    }
+
+    .mika {
+        width: 100%;
+    }
+
+    .gazar {
+        width: 100%;
+    }
+
+    .parallax {
+        width: 100%;
+    }
+
+    .outteam {
+        width: 100%;
+    }
+
+    .mega {
+        width: 100%;
+    }
+
+    .bgimg2 {
+        width: 100%;
+    }
+
+    .alltemplate {
+        width: 100%;
+    }
+
+    .bcgrd {
+        width: 100%;
+    }
+
+    .bgimg3 {
+        width: 100%;
+    }
+
+    .endtemplateall {
+        width: 100%;
+    }
+
+    .endtmplt {
+        width: 100%;
+    }
+
+    .sevfon {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .text5555 h1 {
+        font-size: 30px;
+        position: relative;
+        right: 400px;
+    }
+
+    .text5555 p {
+        font-size: 13px;
+        position: relative;
+        right: 340px;
+    }
+
+    .text5555 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        right: 350px;
+    }
+
+    .text6666 h1 {
+        font-size: 30px;
+        position: relative;
+        right: 400px;
+    }
+
+    .text6666 p {
+        font-size: 13px;
+        position: relative;
+        right: 340px;
+    }
+
+    .text6666 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        right: 350px;
+    }
+
+    .herberul {
+        font-size: 20px;
+    }
+
+    .natural {
+        width: 300px;
+        height: 150px;
+        position: relative;
+        left: 30px;
+    }
+
+    .naturalmt {
+        display: none;
+    }
+
+    .gazar2 img {
+        width: 500px;
+        height: 600px;
+    }
+
+    .verev1 img {
+        width: 230px;
+        height: 230px;
+        position: relative;
+        left: -50px;
+    }
+
+    .fonhtm h2 {
+        font-size: 70px;
+    }
+
+    .fonhtm p {
+        font-size: 24px;
+    }
+
+    .fonhtm button {
+        display: none;
+    }
+
+    .color img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .teamtext h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .mega h2 {
+        font-size: 40px;
+    }
+
+    .mall {
+        display: none;
+    }
+
+    .textsall h2 {
+        font-size: 30px;
+    }
+
+    .mekmek img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .herber {
+        width: 100%;
+    }
+
+    .mySwiper {
+        width: 100%;
+    }
+
+    .bgimg {
+        width: 100%;
+    }
+
+    .aaj {
+        width: 100%;
+    }
+
+    .mika {
+        width: 100%;
+    }
+
+    .gazar {
+        width: 100%;
+    }
+
+    .parallax {
+        width: 100%;
+    }
+
+    .outteam {
+        width: 100%;
+    }
+
+    .mega {
+        width: 100%;
+    }
+
+    .bgimg2 {
+        width: 100%;
+    }
+
+    .alltemplate {
+        width: 100%;
+    }
+
+    .bcgrd {
+        width: 100%;
+    }
+
+    .bgimg3 {
+        width: 100%;
+    }
+
+    .endtemplateall {
+        width: 100%;
+    }
+
+    .endtmplt {
+        width: 100%;
+    }
+
+    .sevfon {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .text5555 h1 {
+        font-size: 30px;
+        position: relative;
+        right: 300px;
+    }
+
+    .text5555 p {
+        font-size: 13px;
+        position: relative;
+        right: 240px;
+    }
+
+    .text5555 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        right: 250px;
+    }
+
+    .text6666 h1 {
+        font-size: 30px;
+        position: relative;
+        right: 300px;
+    }
+
+    .text6666 p {
+        font-size: 13px;
+        position: relative;
+        right: 240px;
+    }
+
+    .text6666 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        right: 250px;
+    }
+
+    .herberul {
+        font-size: 13px;
+    }
+
+    .natural {
+        width: 400px;
+        height: 250px;
+        position: relative;
+        left: 30px;
+    }
+
+    .naturalmt {
+        display: none;
+    }
+
+    .naturalmtr {
+        display: none;
+    }
+
+    .gazar2 img {
+        width: 400px;
+        height: 500px;
+        position: relative;
+        right: 0px;
+    }
+
+    .verev1 img {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        left: 0px;
+    }
+
+    .mrger1 h4 {
+        position: relative;
+        left: 0px;
+    }
+
+    .mrger1 p {
+        position: relative;
+        left: 0px;
+    }
+
+    .fonhtm h2 {
+        font-size: 50px;
+    }
+
+    .fonhtm p {
+        font-size: 14px;
+    }
+
+    .fonhtm button {
+        display: none;
+    }
+
+    .color img {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 0px;
+    }
+
+    .teamtext h2 {
+        font-size: 45px;
+        position: relative;
+        left: 0px;
+    }
+
+    .mega h2 {
+        font-size: 30px;
+    }
+
+    .mall {
+        display: none;
+    }
+
+    .textsall h2 {
+        font-size: 40px;
+    }
+
+    .mekmek img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .th3 {
+        display: none;
+    }
+
+    .herber {
+        width: 100%;
+    }
+
+    .mySwiper {
+        width: 100%;
+    }
+
+    .bgimg {
+        width: 100%;
+    }
+
+    .aaj {
+        width: 100%;
+    }
+
+    .mika {
+        width: 100%;
+    }
+
+    .gazar {
+        width: 100%;
+    }
+
+    .parallax {
+        width: 100%;
+    }
+
+    .outteam {
+        width: 100%;
+    }
+
+    .mega {
+        width: 100%;
+    }
+
+    .bgimg2 {
+        width: 100%;
+    }
+
+    .alltemplate {
+        width: 100%;
+    }
+
+    .bcgrd {
+        width: 100%;
+    }
+
+    .bgimg3 {
+        width: 100%;
+    }
+
+    .endtemplateall {
+        width: 100%;
+    }
+
+    .endtmplt {
+        width: 100%;
+    }
+
+    .sevfon {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .text5555 h1 {
+        font-size: 30px;
+        position: relative;
+        right: 200px;
+    }
+
+    .text5555 p {
+        font-size: 13px;
+        position: relative;
+        right: 140px;
+    }
+
+    .text5555 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        right: 150px;
+    }
+
+    .text6666 h1 {
+        font-size: 30px;
+        position: relative;
+        right: 200px;
+    }
+
+    .text6666 p {
+        font-size: 13px;
+        position: relative;
+        right: 140px;
+    }
+
+    .text6666 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        right: 150px;
+    }
+
+    .herberul .joker {
+        display: none;
+    }
+
+    .herberul .joker1 {
+        font-size: 30px;
+        position: relative;
+        left: 100px;
+    }
+
+    .herberlogo img {
+        position: relative;
+        right: 80px;
+        top: 10px;
+    }
+
+    .natural {
+        width: 400px;
+        height: 250px;
+        position: relative;
+        left: 0px;
+    }
+
+    .naturalmt {
+        display: none;
+    }
+
+    .naturalmtr {
+        display: none;
+    }
+
+    .gazar2 img {
+        width: 550px;
+        height: 630px;
+        position: relative;
+        right: 0px;
+    }
+
+    .verev1 img {
+        display: none;
+    }
+
+    .nerqev img {
+        display: none;
+    }
+
+    .mrger1 h4 {
+        display: none;
+    }
+
+    .mrger1 p {
+        display: none;
+    }
+
+    .fonhtm h2 {
+        font-size: 60px;
+    }
+
+    .fonhtm p {
+        font-size: 23px;
+    }
+
+    .fonhtm button {
+        display: none;
+    }
+
+    .color img {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        left: 0px;
+    }
+
+    .teamtext h2 {
+        display: none;
+    }
+
+    .insta img {
+        display: none;
+    }
+
+    .mega h2 {
+        font-size: 35px;
+    }
+
+    .mall {
+        display: none;
+    }
+
+    .textsall h2 {
+        font-size: 30px;
+    }
+
+    .mekmek img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .narekk {
+        display: none;
+    }
+
+    .herber {
+        width: 100%;
+    }
+
+    .mySwiper {
+        width: 100%;
+    }
+
+    .bgimg {
+        width: 100%;
+    }
+
+    .aaj {
+        width: 100%;
+    }
+
+    .mika {
+        width: 100%;
+    }
+
+    .gazar {
+        width: 100%;
+    }
+
+    .parallax {
+        width: 100%;
+    }
+
+    .outteam {
+        width: 100%;
+    }
+
+    .mega {
+        width: 100%;
+    }
+
+    .bgimg2 {
+        width: 100%;
+    }
+
+    .alltemplate {
+        width: 100%;
+    }
+
+    .bcgrd {
+        width: 100%;
+    }
+
+    .bgimg3 {
+        width: 100%;
+    }
+
+    .endtemplateall {
+        width: 100%;
+    }
+
+    .endtmplt {
+        width: 100%;
+    }
+
+    .sevfon {
+        width: 100%;
+    }
+
+    .teamtext img {
+        position: relative;
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .text5555 h1 {
+        font-size: 30px;
+        position: relative;
+        right: 100px;
+    }
+
+    .text5555 p {
+        font-size: 13px;
+        position: relative;
+        right: 40px;
+    }
+
+    .text5555 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        right: 50px;
+    }
+
+    .text6666 h1 {
+        font-size: 30px;
+        position: relative;
+        right: 100px;
+    }
+
+    .text6666 p {
+        font-size: 13px;
+        position: relative;
+        right: 40px;
+    }
+
+    .text6666 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        right: 50px;
+    }
+
+    .herberul .joker {
+        display: none;
+    }
+
+    .herberul .joker1 {
+        font-size: 30px;
+        position: relative;
+        left: 80px;
+    }
+
+    .herberlogo img {
+        position: relative;
+        right: 60px;
+        top: 10px;
+    }
+
+    .natural {
+        width: 400px;
+        height: 280px;
+        position: relative;
+        right: 210px;
+    }
+
+    .naturalmt {
+        display: none;
+    }
+
+    .naturalmtr {
+        display: none;
+    }
+
+    .gazar2 img {
+        width: 460px;
+        height: 560px;
+        position: relative;
+        right: 0px;
+    }
+
+    .verev1 img {
+        display: none;
+    }
+
+    .nerqev img {
+        display: none;
+    }
+
+    .mrger1 h4 {
+        display: none;
+    }
+
+    .mrger1 p {
+        display: none;
+    }
+
+    .fonhtm h2 {
+        font-size: 50px;
+    }
+
+    .fonhtm p {
+        font-size: 17px;
+    }
+
+    .fonhtm button {
+        display: none;
+    }
+
+    .color img {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: 0px;
+    }
+
+    .teamtext h2 {
+        display: none;
+    }
+
+    .insta img {
+        display: none;
+    }
+
+    .yutub img {
+        display: none;
+    }
+
+    .mega h2 {
+        font-size: 30px;
+    }
+
+    .mall {
+        display: none;
+    }
+
+    .th2 {
+        display: none;
+    }
+
+    .narekkk {
+        display: none;
+    }
+
+    .mekmek img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .herber {
+        width: 100%;
+    }
+
+    .mySwiper {
+        width: 100%;
+    }
+
+    .bgimg {
+        width: 100%;
+    }
+
+    .aaj {
+        width: 100%;
+    }
+
+    .mika {
+        width: 100%;
+    }
+
+    .gazar {
+        width: 100%;
+    }
+
+    .parallax {
+        width: 100%;
+    }
+
+    .outteam {
+        width: 100%;
+    }
+
+    .mega {
+        width: 100%;
+    }
+
+    .bgimg2 {
+        width: 100%;
+    }
+
+    .alltemplate {
+        width: 100%;
+    }
+
+    .bcgrd {
+        width: 100%;
+    }
+
+    .bgimg3 {
+        width: 100%;
+    }
+
+    .verev1 img {
+        display: none;
+    }
+
+    .nerqev img {
+        display: none;
+    }
+
+    .endtemplateall {
+        width: 100%;
+    }
+
+    .endtmplt {
+        width: 100%;
+    }
+
+    .sevfon {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text5555 h1 {
+        font-size: 30px;
+        position: relative;
+        left: 0px;
+    }
+
+    .text5555 p {
+        font-size: 13px;
+        position: relative;
+        left: 0px;
+    }
+
+    .text5555 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        left: 0px;
+    }
+
+    .text6666 h1 {
+        font-size: 30px;
+        position: relative;
+        left: 0px;
+    }
+
+    .text6666 p {
+        font-size: 13px;
+        position: relative;
+        left: 0px;
+    }
+
+    .text6666 button {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+        position: relative;
+        left: 0px;
+    }
+
+    .verev1 img {
+        display: none;
+    }
+
+    .nerqev img {
+        display: none;
+    }
+
+    .herberul .joker {
+        display: none;
+    }
+
+    .herberul .joker1 {
+        font-size: 30px;
+        width: 97px;
+    }
+
+    .herberlogo img {
+        position: relative;
+        left: 10px;
+    }
+
+    .naturalmtra {
+        width: 440px;
+        height: 200px;
+        position: relative;
+        left: -120px;
+    }
+
+    .naturalmt {
+        display: none;
+    }
+
+    .naturalmtr {
+        display: none;
+    }
+
+    .gazar2 img {
+        width: 370px;
+        height: 500px;
+        position: relative;
+        left: 23px;
+    }
+
+    .verev1 img {
+        display: none;
+    }
+
+    .mrger1 h4 {
+        display: none;
+    }
+
+    .mrger1 p {
+        display: none;
+    }
+
+    .fonhtm h2 {
+        font-size: 50px;
+    }
+
+    .fonhtm p {
+        font-size: 10px;
+    }
+
+    .fonhtm button {
+        display: none;
+    }
+
+    .color img {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: 0px;
+    }
+
+    .teamtext h2 {
+        display: none;
+    }
+
+    .insta img {
+        display: none;
+    }
+
+    .yutub img {
+        display: none;
+    }
+
+    .harrrr h2 {
+        font-size: 10px;
+    }
+
+    .th2 {
+        display: none;
+    }
+
+    .endtmplt h2 {
+        font-size: 10px;
+    }
+
+    .herber {
+        width: 100%;
+    }
+
+    .mySwiper {
+        width: 100%;
+    }
+
+    .bgimg {
+        width: 100%;
+    }
+
+    .aaj {
+        width: 100%;
+    }
+
+    .mika {
+        width: 100%;
+    }
+
+    .gazar {
+        width: 100%;
+    }
+
+    .parallax {
+        width: 100%;
+    }
+
+    .outteam {
+        width: 100%;
+    }
+
+    .mega {
+        width: 100%;
+    }
+
+    .bgimg2 {
+        width: 100%;
+    }
+
+    .alltemplate {
+        width: 100%;
+    }
+
+    .bcgrd {
+        width: 100%;
+    }
+
+    .bgimg3 {
+        width: 100%;
+    }
+
+    .endtemplateall {
+        width: 100%;
+    }
+
+    .endtmplt {
+        width: 100%;
+    }
+
+    .sevfon {
+        width: 100%;
+    }
+
+    .natural {
+        width: 350px;
+        height: 200px;
+        position: relative;
+        left: 40px;
+    }
+}
